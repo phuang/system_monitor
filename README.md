@@ -33,8 +33,8 @@ A modern, high-performance web application built with TypeScript, featuring a re
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd tswebapp
+   git clone https://github.com/phuang/system_monitor.git
+   cd system_monitor
    ```
 
 2. Install dependencies:
