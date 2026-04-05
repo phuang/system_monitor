@@ -1,4 +1,4 @@
-# TSWebApp - System Monitoring Dashboard
+# System Monitoring Dashboard
 
 A modern, high-performance web application built with TypeScript, featuring a real-time system monitoring dashboard. It leverages Mithril.js for a lightweight UI and ECharts for reactive, interactive data visualizations.
 
