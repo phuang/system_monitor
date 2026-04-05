@@ -3,6 +3,7 @@ import m from 'mithril';
 import { Layout } from './layout';
 import { Home } from './home';
 import { Settings } from './settings';
+import { SystemMonitor } from './system_monitor/system_monitor';
 
 const appContainer = document.getElementById('app');
 
@@ -13,6 +14,9 @@ if (appContainer) {
         },
         "/settings": {
             render: () => m(Layout, m(Settings))
+        },
+        "/system-monitor": {
+            render: () => m(Layout, m(SystemMonitor))
         }
     });
 }

@@ -6,7 +6,8 @@ export const Layout = {
             // Shared Navigation Bar
             m("nav.bg-gray-800.p-4.shadow-md.flex.gap-4", [
                 m(m.route.Link, { href: "/", class: "text-blue-400 hover:text-blue-300 font-semibold transition-colors" }, "Home"),
-                m(m.route.Link, { href: "/settings", class: "text-blue-400 hover:text-blue-300 font-semibold transition-colors" }, "Settings")
+                m(m.route.Link, { href: "/settings", class: "text-blue-400 hover:text-blue-300 font-semibold transition-colors" }, "Settings"),
+                m(m.route.Link, { href: "/system-monitor", class: "text-blue-400 hover:text-blue-300 font-semibold transition-colors" }, "SystemMonitor")
             ]),
             // Dynamic Page Content gets injected here
             m("main.p-8", vnode.children)
