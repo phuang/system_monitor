@@ -542,7 +542,6 @@ const StatCard: m.Component<StatCardAttrs> = {
         ]);
     }
 };
-
 export const SystemMonitor: m.Component = {
     oninit() {
         State.init();
@@ -558,7 +557,7 @@ export const SystemMonitor: m.Component = {
         const cpuGridClass = State.layoutMode === 'grid' ? 'md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1';
         const statGridClass = State.layoutMode === 'grid' ? 'md:grid-cols-2' : 'grid-cols-1';
 
-        return m("div", { class: "p-4 md:p-8 text-gray-700 font-light" }, [
+        return m("div", { class: "p-2 md:p-2 text-gray-700 font-light w-full" }, [
             m(Toolbar),
             
             // Core Load Grid
